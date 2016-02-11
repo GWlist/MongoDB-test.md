@@ -2,8 +2,12 @@
 
 
 D:\Software\MongoDB 3.0.2\bin>mongo.exe
+
 MongoDB shell version: 3.0.2
+
 connecting to: test
+
+```
 > mongoimport --db test --collection restaurants --drop --file primer-dataset.js
 on
 2016-02-11T08:54:29.706-0500 E QUERY    SyntaxError: Unexpected identifier
@@ -78,4 +82,5 @@ y" : "clothing" }
 model" : "14Q2", "manufacturer" : "M5 Corporation" }, "stock" : [ { "size" : "S"
 , "qty" : 5 }, { "size" : "L", "qty" : 1 } ], "category" : "houseware" }
 > db.inventory.find( { type: "snacks" } )
->
+
+```
